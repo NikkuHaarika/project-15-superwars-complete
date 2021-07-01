@@ -122,7 +122,10 @@ class Superwar {
     // Check for fight
     isFight = () => {
         // Type your code here
-
+      if(this.strength > 0)
+        return ("peace");
+      else
+        return ("clash");
         // return  'clash' or 'peace';
     }
 
@@ -157,6 +160,9 @@ class Superwar {
     totalStrength = (type) => {
         // Calculate and return the total strength of the team
         // Type your code here
+     var strength=this.players.filter
+     {
+      
 
         return strength;
     }
